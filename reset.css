@@ -1,0 +1,74 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   	font-weight: 300;
+   	font-size: 14px;
+	background-color: black;
+	background-image: url(images/cc_bg_large.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	line-height: 20px;
+}
+#layout {
+	background-color: white;
+	width: 640px;
+	margin: 0 auto;
+}
+
+section, aside {
+	padding: 20px;
+}
+h1 {
+	background-color: #d10a0a;
+}
+h2 {
+	font-size: 28px;
+	line-height: 32px;
+}
+h3 {
+	font-size: 14px;
+	margin-bottom: 20px;
+	color: rgb(97, 97, 97);
+}
+p {
+	margin-bottom: 20px;
+}
+#firstParagraph {
+	font-size: 20px;
+	line-height: 24px;
+}
+aside {
+	background-color: black;
+	color: white;
+}
+#caption {
+	font-family: "Times New Roman", Times, serif; 
+	font-style: italic;
+	margin-bottom: 0px;
+	margin-top: 10px;
+	text-align: right;
+}
